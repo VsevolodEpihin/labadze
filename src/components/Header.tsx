@@ -5,7 +5,6 @@ const navItems = [
   { label: "О себе", anchor: "about" },
   { label: "Технологии", anchor: "tech" },
   { label: "Проекты", anchor: "projects" },
-  { label: "Gists", anchor: "gists" },
 ];
 
 const Header: React.FC = () => {
