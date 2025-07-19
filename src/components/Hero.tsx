@@ -86,7 +86,7 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="hero-photo">
-        <img src="/visite-site/photo.jpg" alt="Фото" />
+        <img src="/labadze/photo.jpg" alt="Фото" />
       </div>
     </section>
   );
