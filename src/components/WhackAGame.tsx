@@ -18,8 +18,8 @@ const WhackAGame: React.FC = () => {
   const [success, setSuccess] = useState<null | boolean>(null);
   const [started, setStarted] = useState(false);
   const [timer, setTimer] = useState(GAME_TIME);
-  const intervalRef = useRef<NodeJS.Timeout | null>(null);
-  const gameTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const intervalRef = useRef<number | null>(null);
+  const gameTimerRef = useRef<number | null>(null);
 
   useEffect(() => {
     if (!started || success !== null) return;
